@@ -121,7 +121,9 @@ def main():
         main()
     else:
         print("EXITING...")
+        unused_variable = os.system("clear")
         exit()
+        
 
 main()
 
